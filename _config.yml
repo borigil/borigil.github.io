@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://borigil.github.io/" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: AdQUA front-end developer borigil
 
 # Social icons
 facebook: borigil
