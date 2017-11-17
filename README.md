@@ -1,6 +1,6 @@
-# borigil jekyll blog
-AdQUA front-end developer
-borigil's jekyll blog, 
+# borigil's blog
+* AdQUA front-end developer
+* borigil's blog by jekyll.
 
 ## To do list:
 * javascript study
