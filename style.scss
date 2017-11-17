@@ -68,7 +68,7 @@ label[data-function*='swipe'] {
 }
 
 input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
-  transform: translate3d(260px,0,0);
+  transform: translate3d(180px,0,0);
 }
 
 #social-icons
@@ -184,11 +184,11 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 }
 
 input[data-function*='swipe']:checked ~ .content {
-  transform: translate3d(180px,0px,0px);
+  transform: translate3d(0px,0px,0px);
 }
 
 input[data-function*='swipe']:checked ~ .sidebar {
-  transform: translate3d(0px,0px,0px);
+  transform: translate3d(180px,0px,0px);
   .menu {
     li {
       width: 100%;
