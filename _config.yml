@@ -1,11 +1,11 @@
 # Site settings
-title: borigil's blog
+title: Front-end developer borigil
 email: borigil@adqua.co.kr
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://borigil.github.io/" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: AdQUA front-end developer borigil
+description: Front-end developer borigil
 
 # Social icons
 facebook: byungkil.park
