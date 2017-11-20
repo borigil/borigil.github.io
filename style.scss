@@ -1,7 +1,8 @@
 ---
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
 
 /* ------------ Core Style -------------- */
 
@@ -68,7 +69,7 @@ label[data-function*='swipe'] {
 }
 
 input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
-  transform: translate3d(260px,0,0);
+  transform: translate3d(180px,0,0);
 }
 
 #social-icons
@@ -101,7 +102,7 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
   transform: translate3d(0,0,0);
   transition: transform .3s;
 
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
   background-color: #fff;
   font-size: 16px;
   line-height: 1.5em;
@@ -139,9 +140,28 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
     font-weight: bold;
 }
 
+.content h2 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.post-header h2 {
+    color:#545454;
+}
+
+
 .content p
 {
-    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
     background-color: #fff;
     font-size: 16px;
     line-height: 24px;
@@ -149,9 +169,10 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
     font-weight: 300;
 }
 
+
 .content a {
 
-    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
     background-color: #fff;
     font-size: 16px;
     line-height: normal;
@@ -215,7 +236,7 @@ input[data-function*='swipe']:checked ~ .sidebar {
 
   p
   {
-    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
     background-color: #f5f5de;
     font-size: 13px;
     line-height: normal;
@@ -241,7 +262,7 @@ input[data-function*='swipe']:checked ~ .sidebar {
 
     a{
 
-      font-family: "Roboto Condensed", Arial, sans-serif;
+      font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
       background-color: #f5f5de;
       font-size: 13px;
       line-height: normal;
