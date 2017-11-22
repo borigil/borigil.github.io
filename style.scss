@@ -65,7 +65,7 @@ label[data-function*='swipe'] {
   display: block;
   text-align: center;
   transform: translate3d(0,0,0);
-  transition: transform .3s;
+  transition: transform .4s ease-in-out;
 }
 
 input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
@@ -100,15 +100,16 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
   flex: 1;
   padding: 80px 30px;
   transform: translate3d(0,0,0);
-  transition: transform .3s;
-
+  transition: transform .4s ease-in-out;
   font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
   background-color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5em;
   color: #666;
   font-weight: 300;
 }
+
+.btn-default:hover { background-color: rgba(0,150,0,0.07); }
 
 .content hr {
     margin-top: 20px;
@@ -129,6 +130,7 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 .content h2 {
     font-weight: normal;
     margin-bottom: 5px;
+    font-size:24px;
     color: #666666;
     font-weight: bold;
 }
@@ -136,20 +138,23 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 .content h3 {
     font-weight: normal;
     margin-bottom: 5px;
+    font-size:18px;
     color: #666666;
     font-weight: bold;
 }
 
-.content h2 {
+.content .post-header h2 {
     font-weight: normal;
-    margin-bottom: 5px;
-    color: #666666;
+    margin-bottom: 12px;
+    font-size:28px;
+    color: #545454;
     font-weight: bold;
 }
 
-.content h3 {
+.content .post-header h3 {
     font-weight: normal;
     margin-bottom: 5px;
+    font-size:24px;
     color: #666666;
     font-weight: bold;
 }
@@ -158,23 +163,21 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
     color:#545454;
 }
 
-
 .content p
 {
     font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
     background-color: #fff;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 17px;
     color: #666666;
     font-weight: 300;
 }
 
 
 .content a {
-
     font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
     background-color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     line-height: normal;
     font-style: normal;
     color: #8C8C8C;
@@ -186,7 +189,6 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 {
     border:none;
     width: 70%;
-
     /* Generic font style */
     font-family: Arial,sans-serif;
     font-size: 13px;
@@ -218,18 +220,18 @@ input[data-function*='swipe']:checked ~ .sidebar {
 }
 
 .sidebar {
-  transform: translate3d(-180px,0px,0px);
+  transform: translate3d(-180px,0px,0px) scale(1);
   position: absolute;
   width: 180px;
   color: #eee;
   left: 0;
   height: 100%;
-  transition: all .3s;
-  background-color: #f5f5de;
+  background-color: rgba(0,150,0,0.07);
+  transition: all .4s ease-in-out;
 }
 
-.menu {
 
+.menu {
   font-size:  1.1em;
   display: block;
   padding-left: 15px;
@@ -237,7 +239,7 @@ input[data-function*='swipe']:checked ~ .sidebar {
   p
   {
     font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
-    background-color: #f5f5de;
+    background-color: transparent;
     font-size: 13px;
     line-height: normal;
     font-style: normal;
@@ -263,7 +265,7 @@ input[data-function*='swipe']:checked ~ .sidebar {
     a{
 
       font-family: 'Roboto Condensed', 'Nanum Gothic Coding', Arial, sans-serif;
-      background-color: #f5f5de;
+      background-color: transparent;
       font-size: 13px;
       line-height: normal;
       font-style: normal;
